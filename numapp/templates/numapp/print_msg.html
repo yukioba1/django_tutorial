@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>メッセージ</title>
+    </head>
+    <body>
+        <h1>
+            入力した数字は「{{num}}」ですね。
+            <br> <br>
+
+            {# if文 #}
+            入力した数字は
+            {% if num == '1' %}
+            ONE 
+            {% elif num == '2' %}    
+            TWO
+            {% elif num == '3' %}
+            THREE
+            {%else%}
+            1～3以外
+            {% endif %}
+            <br> <br>
+            {%for list in fruits%}
+                {{list}}
+            {% endfor %}
+        </h1>
+    </body>
+</html>

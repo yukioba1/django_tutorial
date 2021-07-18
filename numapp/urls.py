@@ -4,5 +4,5 @@ from . import views
 app_name = "numapp"
 
 urlpatterns = [
-    path('inputNum', views.input_num),
+    path('inputNum/', views.input_num),
 ]
