@@ -5,4 +5,5 @@ app_name = "numapp"
 
 urlpatterns = [
     path('inputNum/', views.input_num),
+    path('printMsg/', views.print_msg),
 ]
