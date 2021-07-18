@@ -9,3 +9,5 @@ def print_msg(request):
         'num' : request.POST['num'],
     }
     return render(request, 'numapp/print_msg.html', context)
+
+
