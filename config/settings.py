@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'testapp.apps.TestappConfig',
     'numapp.apps.NumappConfig',
+    'account.apps.AccountConfig',
 ]
 
 MIDDLEWARE = [
